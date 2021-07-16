@@ -121,13 +121,8 @@ namespace Logica
         public static void ListarParticipantes(List<string> _participantes)
         {
 
-            if (_participantes == null)
+            if (_participantes.Count > 0)
             {
-                Console.WriteLine("A lista ainda não possui nenhum cadastro.");
-            }
-            else
-            {
-                
                 int contador = 0;
 
                 foreach (var item in _participantes)
@@ -136,10 +131,10 @@ namespace Logica
                     Console.WriteLine($"Nome do {contador}º participante cadastrado: {item}");
                 }
             }
+            else
 
+                Console.WriteLine("\nA lista ainda não possui nenhum cadastro.");
 
         }
-
-
     }
 }

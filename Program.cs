@@ -51,6 +51,16 @@ namespace Logica
 
                             cadastroEfetivado = CadastrarParticipante(idade, acompanhado);
 
+                            if (cadastroEfetivado == true)
+                            {
+                                Console.WriteLine("\nCadastro efetivado com sucesso!");
+                            }
+                            else
+                            {
+                                Console.WriteLine("\nNão foi possível efetivar o seu cadastro. Menores devem estar acompanhados.");
+                            }
+
+
                             Console.WriteLine("\nDeseja continuar cadastrando?\n1 - Sim;\n2 - Não");
                             continuar = Console.ReadLine();
 
@@ -96,11 +106,8 @@ namespace Logica
             {
                 participantes.Add(nome);
 
-                Console.WriteLine("\nCadastro efetivado com sucesso!");
                 return true;
             }
-
-            Console.WriteLine("\nNão foi possível efetivar o seu cadastro.");
 
             return false;
         }
@@ -113,13 +120,24 @@ namespace Logica
 
         public static void ListarParticipantes(List<string> _participantes)
         {
-            int contador = 0;
 
-            foreach (var item in _participantes)
+            if (_participantes == null)
             {
-                contador++;
-                Console.WriteLine($"Nome do {contador}º usuario cadastrado: {item}");
+                Console.WriteLine("A lista ainda não possui nenhum cadastro.");
             }
+            else
+            {
+                
+                int contador = 0;
+
+                foreach (var item in _participantes)
+                {
+                    contador++;
+                    Console.WriteLine($"Nome do {contador}º participante cadastrado: {item}");
+                }
+            }
+
+
         }
 
 

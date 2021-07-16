@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\exercicios extras\\Logica\\Logica.csproj": {}
+    "/home/karamaz0v/Área de Trabalho/exercicios-extras/Logica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\exercicios extras\\Logica\\Logica.csproj": {
+    "/home/karamaz0v/Área de Trabalho/exercicios-extras/Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\exercicios extras\\Logica\\Logica.csproj",
+        "projectUniqueName": "/home/karamaz0v/Área de Trabalho/exercicios-extras/Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "C:\\Users\\dev\\Desktop\\exercicios extras\\Logica\\Logica.csproj",
-        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\exercicios extras\\Logica\\obj\\",
+        "projectPath": "/home/karamaz0v/Área de Trabalho/exercicios-extras/Logica.csproj",
+        "packagesPath": "/home/karamaz0v/.nuget/packages/",
+        "outputPath": "/home/karamaz0v/Área de Trabalho/exercicios-extras/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/karamaz0v/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }
